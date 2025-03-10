@@ -1,11 +1,2 @@
-//
-//  main.swift
-//  BJ
-//
-//  Created by 송재훈 on 3/25/24.
-//
-
-import Foundation
-
-print("Hello, World!")
-
+//10 1 10 2 1
+let FSGUD = readLine()!.split(separator: " ").map { Int(String($0))! }
