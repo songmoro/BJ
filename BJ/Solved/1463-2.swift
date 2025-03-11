@@ -1,3 +1,11 @@
+//
+//  1463-2.swift
+//  BJ
+//
+//  Created by 송재훈 on 3/11/25.
+//
+
+
 //2
 
 let N = Int(readLine()!)!
