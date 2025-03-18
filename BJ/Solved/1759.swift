@@ -11,24 +11,23 @@
 
 let LC = readLine()!.split(separator: " ").map { Int(String($0))! }
 let (L, C) = (LC[0], LC[1])
-let char = readLine()!.split(separator: " ").map({ String($0) }).sorted()
+let characters = readLine()!.split(separator: " ").map({ String($0) }).sorted()
+let vowels = Set(["a", "e", "i", "o", "u"])
 
-var answer = Set<String>()
+var result = [String]()
 
-func back(_ i: Int, _ current: String) {
-    if i == C {
-        let aeiou = current.filter({ "aeiou".contains($0) }).count
-        if current.count == L, aeiou >= 1, current.count - aeiou >= 2 {
-            answer.insert(current)
-        }
+func backtrack(_ index: Int, _ current: [String], _ vowelCount: Int, _ consonantCount: Int) {
+    if current.count == L {
+        if vowelCount >= 1 && consonantCount >= 2 { result.append(current.joined()) }
+        return
     }
-    else {
-        for j in i..<C {
-            back(j + 1, current)
-            back(j + 1, current + char[j])
-        }
+    
+    for i in index..<C {
+        let char = characters[i]
+        let isVowel = vowels.contains(char)
+        backtrack(i + 1, current + [char], vowelCount + (isVowel ? 1 : 0), consonantCount + (isVowel ? 0 : 1))
     }
 }
 
-back(0, "")
-print(answer.sorted().joined(separator: "\n"))
+backtrack(0, [], 0, 0)
+print(result.joined(separator: "\n"))
