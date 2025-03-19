@@ -15,7 +15,7 @@
 // right = count를 사용하면 left가 최종적으로 정답이 됨.
 // right = count - 1를 사용하면 while left <= right 형태로 구현해야 함.
 // MARK: left = mid vs. mid + 1
-// left = mid는 될 수 있는 경우.
+// left = mid는 mid가 정답이 될 수 있는 경우.
 // left = mid + 1은 mid가 정답이 될 수 없는 경우
 // MARK: right = mid vs. mid - 1
 // right = mid는 mid가 정답이 될 수 있는 경우
