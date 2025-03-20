@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F82662AF2BB16D5400862713 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82662A62BB16B7D00862713 /* main.swift */; };
-		F82E69722D8C138800BA4582 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82E69712D8C138800BA4582 /* PriorityQueue.swift */; };
 		F83A8E582C8F6C8A00F63FB0 /* BJUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83A8E572C8F6C8A00F63FB0 /* BJUnitTest.swift */; };
 		F85BCCC02CB3D6E400E54B29 /* 11052.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85BCCBF2CB3D6E400E54B29 /* 11052.swift */; };
 /* End PBXBuildFile section */
@@ -628,7 +627,6 @@
 			files = (
 				F82662AF2BB16D5400862713 /* main.swift in Sources */,
 				F85BCCC02CB3D6E400E54B29 /* 11052.swift in Sources */,
-				F82E69722D8C138800BA4582 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
