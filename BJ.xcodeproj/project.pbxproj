@@ -109,6 +109,7 @@
 		F82E69702D8C137700BA4582 /* 11286.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11286.swift; sourceTree = "<group>"; };
 		F82E69712D8C138800BA4582 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		F82E69732D8C1C8600BA4582 /* 1927.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1927.swift; sourceTree = "<group>"; };
+		F82E69742D8C1E8400BA4582 /* 11279.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11279.swift; sourceTree = "<group>"; };
 		F83A8E552C8F6C8A00F63FB0 /* BJUnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJUnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83A8E572C8F6C8A00F63FB0 /* BJUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJUnitTest.swift; sourceTree = "<group>"; };
 		F84311122D6B00B500F4B37B /* 1325.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1325.swift; sourceTree = "<group>"; };
@@ -324,6 +325,7 @@
 				F82E696B2D8ACC1E00BA4582 /* 1920-2.swift */,
 				F8B65C482D3B791800FC1414 /* 1001.swift */,
 				F89419BC2CA9816E00D30905 /* 1003.swift */,
+				F82E69742D8C1E8400BA4582 /* 11279.swift */,
 				F84701072D8031F2007F6C49 /* 1003-2.swift */,
 				F84700F02D7E9D98007F6C49 /* 1012.swift */,
 				F82483982D5DC543006B2AB4 /* 1026.swift */,
