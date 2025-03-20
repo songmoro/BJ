@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F82662AF2BB16D5400862713 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82662A62BB16B7D00862713 /* main.swift */; };
+		F82E69722D8C138800BA4582 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82E69712D8C138800BA4582 /* PriorityQueue.swift */; };
 		F83A8E582C8F6C8A00F63FB0 /* BJUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83A8E572C8F6C8A00F63FB0 /* BJUnitTest.swift */; };
 		F85BCCC02CB3D6E400E54B29 /* 11052.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85BCCBF2CB3D6E400E54B29 /* 11052.swift */; };
 /* End PBXBuildFile section */
@@ -106,6 +107,8 @@
 		F82E696D2D8AD56100BA4582 /* 18870.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18870.swift; sourceTree = "<group>"; };
 		F82E696E2D8ADA5B00BA4582 /* 2295.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2295.swift; sourceTree = "<group>"; };
 		F82E696F2D8AF53600BA4582 /* 1654.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1654.swift; sourceTree = "<group>"; };
+		F82E69702D8C137700BA4582 /* 11286.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11286.swift; sourceTree = "<group>"; };
+		F82E69712D8C138800BA4582 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		F83A8E552C8F6C8A00F63FB0 /* BJUnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJUnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83A8E572C8F6C8A00F63FB0 /* BJUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJUnitTest.swift; sourceTree = "<group>"; };
 		F84311122D6B00B500F4B37B /* 1325.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1325.swift; sourceTree = "<group>"; };
@@ -292,6 +295,7 @@
 			children = (
 				F82662A62BB16B7D00862713 /* main.swift */,
 				F84700DC2D7D6C5F007F6C49 /* FileIO.swift */,
+				F82E69712D8C138800BA4582 /* PriorityQueue.swift */,
 				F85BCCBC2CB3BE3900E54B29 /* Solved */,
 			);
 			path = BJ;
@@ -310,6 +314,7 @@
 			children = (
 				F82662B22BB1758B00862713 /* 1000.swift */,
 				F82E696D2D8AD56100BA4582 /* 18870.swift */,
+				F82E69702D8C137700BA4582 /* 11286.swift */,
 				F84700E12D7D7F20007F6C49 /* 1000-2.swift */,
 				F82E696F2D8AF53600BA4582 /* 1654.swift */,
 				F82E696C2D8AD00800BA4582 /* 10816.swift */,
@@ -623,6 +628,7 @@
 			files = (
 				F82662AF2BB16D5400862713 /* main.swift in Sources */,
 				F85BCCC02CB3D6E400E54B29 /* 11052.swift in Sources */,
+				F82E69722D8C138800BA4582 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
