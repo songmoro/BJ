@@ -111,6 +111,7 @@
 		F82E69732D8C1C8600BA4582 /* 1927.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1927.swift; sourceTree = "<group>"; };
 		F82E69742D8C1E8400BA4582 /* 11279.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11279.swift; sourceTree = "<group>"; };
 		F82E69752D8D2EB900BA4582 /* 1753.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1753.swift; sourceTree = "<group>"; };
+		F82E69762D8D37A900BA4582 /* 1238.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1238.swift; sourceTree = "<group>"; };
 		F83A8E552C8F6C8A00F63FB0 /* BJUnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJUnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83A8E572C8F6C8A00F63FB0 /* BJUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJUnitTest.swift; sourceTree = "<group>"; };
 		F84311122D6B00B500F4B37B /* 1325.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1325.swift; sourceTree = "<group>"; };
@@ -316,6 +317,7 @@
 			children = (
 				F82662B22BB1758B00862713 /* 1000.swift */,
 				F82E69752D8D2EB900BA4582 /* 1753.swift */,
+				F82E69762D8D37A900BA4582 /* 1238.swift */,
 				F82E696D2D8AD56100BA4582 /* 18870.swift */,
 				F82E69702D8C137700BA4582 /* 11286.swift */,
 				F84700E12D7D7F20007F6C49 /* 1000-2.swift */,
