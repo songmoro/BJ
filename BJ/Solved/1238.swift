@@ -111,35 +111,42 @@ final class FileIO {
 let file = FileIO()
 
 let (N, M, X) = (file.readInt(), file.readInt(), file.readInt())
-var graph = [[(Int, Int)]](repeating: [], count: N + 1)
-var dist = [[Int]](repeating: [Int](repeating: Int.max, count: N + 1), count: N + 1)
-for i in 1...N { dist[i][i] = 0 }
+var goGraph = [[(Int, Int)]](repeating: [], count: N + 1)
+var comeGraph = [[(Int, Int)]](repeating: [], count: N + 1)
 
 for _ in 0..<M {
     let (u, v, T) = (file.readInt(), file.readInt(), file.readInt())
-    graph[u].append((v, T))
+    goGraph[u].append((v, T))
+    comeGraph[v].append((u, T))
 }
 
-for i in 1...N {
+func dijkstra(_ start: Int, _ graph: [[(Int, Int)]]) -> [Int] {
+    var dist = [Int](repeating: Int.max, count: N + 1)
     var pq = PQ<(Int, Int)> { $0.1 < $1.1 }
-    pq.push((i, 0))
+    pq.push((start, 0))
+    dist[start] = 0
     
     while !pq.isEmpty {
         let (current, cost) = pq.pop()!
-        if cost > dist[i][current] { continue }
+        if cost > dist[current] { continue }
         
         for (next, weight) in graph[current] {
             let newDist = cost + weight
             
-            if newDist < dist[i][next] {
-                dist[i][next] = newDist
+            if newDist < dist[next] {
+                dist[next] = newDist
                 pq.push((next, newDist))
             }
         }
     }
+    
+    return dist
 }
 
+var goDist = dijkstra(X, goGraph)
+var comeDist = dijkstra(X, comeGraph)
+
 var answer = 0
-for i in 1...N { answer = max(answer, dist[i][X] + dist[X][i]) }
+for i in 1...N { answer = max(answer, goDist[i] + comeDist[i]) }
 
 print(answer)
