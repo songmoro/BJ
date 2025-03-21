@@ -114,6 +114,7 @@
 		F82E69762D8D37A900BA4582 /* 1238.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1238.swift; sourceTree = "<group>"; };
 		F82E69782D8D406500BA4582 /* 1504.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1504.swift; sourceTree = "<group>"; };
 		F82E69792D8D4A0B00BA4582 /* 1916.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1916.swift; sourceTree = "<group>"; };
+		F82E697A2D8D4B7300BA4582 /* 11779.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11779.swift; sourceTree = "<group>"; };
 		F83A8E552C8F6C8A00F63FB0 /* BJUnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJUnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83A8E572C8F6C8A00F63FB0 /* BJUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJUnitTest.swift; sourceTree = "<group>"; };
 		F84311122D6B00B500F4B37B /* 1325.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1325.swift; sourceTree = "<group>"; };
@@ -318,6 +319,7 @@
 			isa = PBXGroup;
 			children = (
 				F82662B22BB1758B00862713 /* 1000.swift */,
+				F82E697A2D8D4B7300BA4582 /* 11779.swift */,
 				F82E69792D8D4A0B00BA4582 /* 1916.swift */,
 				F82E69752D8D2EB900BA4582 /* 1753.swift */,
 				F82E69762D8D37A900BA4582 /* 1238.swift */,
