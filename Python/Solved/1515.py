@@ -1,14 +1,12 @@
 # 82340329923
 
 N, i, j = input(), 0, 0
-
 while j != len(N):
     i += 1
 
     for c in str(i):
         if j < len(N) and c == N[j]:
             j += 1
-
 print(i)
 
 # 1234
