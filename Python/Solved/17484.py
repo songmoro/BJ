@@ -25,7 +25,7 @@ for y in range(1, N):
 
             for j in range(3):
                 if i != j:
-                    dp[y][x][i] = min(dp[y][x][i], dp[y-1][nx][j] + space[y][x])
-                    
-answer = min(dp[N-1][x][d] for x in range(M) for d in range(3))
+                    dp[y][x][i] = min(dp[y][x][i], dp[y - 1][nx][j] + space[y][x])
+
+answer = min(dp[N - 1][x][d] for x in range(M) for d in range(3))
 print(answer)
